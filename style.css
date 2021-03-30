@@ -1,5 +1,5 @@
 .banner{
-    background-color: rgb(236, 241, 245);
+
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -20,11 +20,38 @@
 .food{
     position: relative;
     background:honeydew;
+    background-color: white;
     text-align: center;
     overflow: hidden;
     padding: 20px 40px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
 }
 .food-img{
     width: 100%;
 }
+.detailImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    min-width: 80%;
+    height: 20%;
+
+  }
+  .showCenter{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+  }
+  div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
